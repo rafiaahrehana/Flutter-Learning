@@ -9,7 +9,7 @@ class HomePage  extends StatelessWidget {
     appBar: AppBar(backgroundColor: Colors.teal,
       elevation: 1,
       centerTitle: true,
-      title: const Text("Welcome to Oreo",
+      title: const Text("Welcome to Butterfly",
         style: TextStyle(color: Colors.white),
       )
      ),

@@ -1,5 +1,4 @@
 
-
 import 'package:butterfly/page/home.dart';
 import 'package:flutter/material.dart';
 
@@ -55,10 +54,10 @@ class _LoginPageState extends State<LoginPage> {
               width: 88,
               height: 88,
               decoration: BoxDecoration(
-                color: Colors.teal.shade50,
+                color: Colors.purple.shade50,
                 shape: BoxShape.circle,
               ),
-              child: const Icon(Icons.cookie_rounded, color: Colors.teal, size: 44),
+              child: const Icon(Icons.cookie_rounded, color: Colors.purple, size: 44),
             ),
             ),
 
@@ -69,13 +68,13 @@ class _LoginPageState extends State<LoginPage> {
               style: TextStyle(
                 fontSize: 26,
                 fontWeight: FontWeight.w800,
-                color: Colors.teal,
+                color: Colors.purple,
               ),
             ),
 
             const SizedBox(height: 8),
             Text(
-              'Log in to continue shopping with Oreo',
+              'Log in to continue shopping with Butterfly',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 14, color: Colors.grey.shade600),
             ),
@@ -141,7 +140,7 @@ class _LoginPageState extends State<LoginPage> {
                 onPressed: () {},
                 child: const Text(
                   'Forgot Password?',
-                  style: TextStyle(color: Colors.teal, fontWeight: FontWeight.w600),
+                  style: TextStyle(color: Colors.purple, fontWeight: FontWeight.w600),
                 ),
               ),
             ),
@@ -153,7 +152,7 @@ class _LoginPageState extends State<LoginPage> {
               child: ElevatedButton(
                 onPressed: _handleLogin,
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.teal,
+                  backgroundColor: Colors.purple,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12),
                   ),
@@ -182,7 +181,7 @@ class _LoginPageState extends State<LoginPage> {
                   },
                   child: const Text(
                     'Sign Up',
-                    style: TextStyle(color: Colors.teal, fontWeight: FontWeight.w700),
+                    style: TextStyle(color: Colors.purple, fontWeight: FontWeight.w700),
                   ),
                 ),
               ],
