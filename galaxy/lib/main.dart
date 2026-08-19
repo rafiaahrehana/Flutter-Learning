@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.deepPurple,
         ),
         body: const Center(
-          child: Text('Learning Flutter', style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold, color: Colors.pink),)
+          child: Text('Learning Flutter', style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold, color: Colors.blue),)
         ),
         backgroundColor: Colors.grey[400],
       ),
